@@ -1,0 +1,8 @@
+org/isihop/fr/shellClient/ShellConfig.class
+org/isihop/fr/shellClient/KafkaConsumerConfig.class
+org/isihop/fr/shellClient/ShellClientApplication.class
+org/isihop/fr/shellClient/MyShellCommand.class
+org/isihop/fr/shellClient/ClientConsDbService.class
+org/isihop/fr/shellClient/StartupAction.class
+org/isihop/fr/shellClient/LibreTranslator.class
+org/isihop/fr/shellClient/CustomPrompt.class

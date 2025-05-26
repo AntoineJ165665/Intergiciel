@@ -1,0 +1,201 @@
+2025-05-26 09:14:09,946 Enregistrement du client
+2025-05-26 09:14:09,950 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 09:14:09,953 Attente Kafka, 60 secondes.
+2025-05-26 11:08:10,634 Enregistrement du client
+2025-05-26 11:08:10,640 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 11:08:10,641 Attente Kafka, 60 secondes.
+2025-05-26 11:09:10,844 Exception thrown when sending a message with key='null' and payload='CONNECT:ClientA' to topic topictechout:
+org.apache.kafka.common.errors.TimeoutException: Topic topictechout not present in metadata after 60000 ms.
+2025-05-26 11:09:10,850 #### -> Erreur d'envoi du message vers le topic topictechout -> CONNECT:ClientA, Kafka n'est pas a l'écoute sur localhost:9092 !
+2025-05-26 11:09:10,853 Exception: Send failed : Ctrl+Z to stop.
+2025-05-26 11:26:30,531 Enregistrement du client
+2025-05-26 11:26:30,536 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 11:26:30,537 Attente Kafka, 60 secondes.
+2025-05-26 11:27:30,718 Exception thrown when sending a message with key='null' and payload='CONNECT:ClientA' to topic topictechout:
+org.apache.kafka.common.errors.TimeoutException: Topic topictechout not present in metadata after 60000 ms.
+2025-05-26 11:27:30,725 #### -> Erreur d'envoi du message vers le topic topictechout -> CONNECT:ClientA, Kafka n'est pas a l'écoute sur localhost:9092 !
+2025-05-26 11:27:30,728 Exception: Send failed : Ctrl+Z to stop.
+2025-05-26 11:40:09,444 Enregistrement du client
+2025-05-26 11:40:09,448 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 11:40:09,448 Attente Kafka, 60 secondes.
+2025-05-26 11:40:10,714 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 11:40:10,720 Attente Kafka, 60 secondes.
+2025-05-26 11:41:58,119 Enregistrement du client
+2025-05-26 11:41:58,122 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 11:41:58,123 Attente Kafka, 60 secondes.
+2025-05-26 11:41:59,087 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 11:41:59,106 Attente Kafka, 60 secondes.
+2025-05-26 11:48:08,675 Fermeture du client ClientA
+2025-05-26 11:48:14,421 Fermeture du client ClientA
+2025-05-26 11:50:31,401 Enregistrement du client
+2025-05-26 11:50:31,403 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 11:50:31,405 Attente Kafka, 60 secondes.
+2025-05-26 11:50:32,041 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 11:50:32,058 Attente Kafka, 60 secondes.
+2025-05-26 11:53:07,655 Enregistrement du client
+2025-05-26 11:53:07,657 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 11:53:07,659 Attente Kafka, 60 secondes.
+2025-05-26 11:53:08,454 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 11:53:08,494 Attente Kafka, 60 secondes.
+2025-05-26 11:57:58,991 Fermeture du client ClientA
+2025-05-26 11:58:06,534 Fermeture du client ClientB
+2025-05-26 11:58:06,856 Application run failed
+java.io.IOError: java.io.IOException: Error executing '/usr/bin/stty -a': /usr/bin/stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:57)
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:779)
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:512)
+	at org.springframework.shell.jline.InteractiveShellRunner$JLineInputProvider.readInput(InteractiveShellRunner.java:91)
+	at org.springframework.shell.Shell.run(Shell.java:146)
+	at org.springframework.shell.jline.InteractiveShellRunner.run(InteractiveShellRunner.java:72)
+	at org.springframework.shell.DefaultShellApplicationRunner.run(DefaultShellApplicationRunner.java:66)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$4(SpringApplication.java:784)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.isihop.fr.shellClient.ShellClientApplication.main(ShellClientApplication.java:15)
+Caused by: java.io.IOException: Error executing '/usr/bin/stty -a': /usr/bin/stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:48)
+	at org.jline.terminal.impl.exec.ExecPty.doGetConfig(ExecPty.java:177)
+	at org.jline.terminal.impl.exec.ExecPty.getAttr(ExecPty.java:91)
+	at org.jline.terminal.impl.exec.ExecPty.doSetAttr(ExecPty.java:97)
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:48)
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:55)
+	... 24 common frames omitted
+2025-05-26 14:43:02,650 Enregistrement du client
+2025-05-26 14:43:02,655 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 14:43:02,664 Attente Kafka, 60 secondes.
+2025-05-26 14:43:06,270 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 14:43:06,276 Attente Kafka, 60 secondes.
+2025-05-26 14:45:31,417 Enregistrement du client
+2025-05-26 14:45:31,420 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 14:45:31,428 Attente Kafka, 60 secondes.
+2025-05-26 14:45:33,564 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 14:45:33,595 Attente Kafka, 60 secondes.
+2025-05-26 14:45:47,461 Fermeture du client ClientA
+2025-05-26 14:47:11,105 Enregistrement du client
+2025-05-26 14:47:11,113 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 14:47:11,115 Attente Kafka, 60 secondes.
+2025-05-26 14:47:13,054 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 14:47:13,137 Attente Kafka, 60 secondes.
+2025-05-26 15:06:16,239 Fermeture du client ClientB
+2025-05-26 15:06:22,510 Fermeture du client ClientA
+2025-05-26 16:25:05,142 Enregistrement du client
+2025-05-26 16:25:05,146 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:25:05,146 Attente Kafka, 60 secondes.
+2025-05-26 16:26:22,500 Enregistrement du client
+2025-05-26 16:26:22,537 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 16:26:22,538 Attente Kafka, 60 secondes.
+2025-05-26 16:26:23,945 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 16:26:23,959 Attente Kafka, 60 secondes.
+2025-05-26 16:26:37,724 Enregistrement du client
+2025-05-26 16:26:37,729 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:26:37,730 Attente Kafka, 60 secondes.
+2025-05-26 16:26:38,460 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 16:26:38,470 Attente Kafka, 60 secondes.
+2025-05-26 16:29:04,521 Fermeture du client ClientB
+2025-05-26 16:29:04,526 Fermeture du client ClientA
+2025-05-26 16:43:44,250 Enregistrement du client
+2025-05-26 16:43:44,256 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:43:44,257 Attente Kafka, 60 secondes.
+2025-05-26 16:44:57,433 Enregistrement du client
+2025-05-26 16:44:57,441 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:44:57,443 Attente Kafka, 60 secondes.
+2025-05-26 16:44:59,229 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 16:44:59,243 Attente Kafka, 60 secondes.
+2025-05-26 16:45:14,350 Enregistrement du client
+2025-05-26 16:45:14,354 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:45:14,355 Attente Kafka, 60 secondes.
+2025-05-26 16:45:15,144 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 16:45:15,152 Attente Kafka, 60 secondes.
+2025-05-26 16:45:35,357 Fermeture du client ClientA
+2025-05-26 16:45:42,836 Fermeture du client ClientA
+2025-05-26 16:46:02,627 Enregistrement du client
+2025-05-26 16:46:02,629 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 16:46:02,632 Attente Kafka, 60 secondes.
+2025-05-26 16:46:03,466 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 16:46:03,506 Attente Kafka, 60 secondes.
+2025-05-26 16:46:16,627 Enregistrement du client
+2025-05-26 16:46:16,631 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 16:46:16,632 Attente Kafka, 60 secondes.
+2025-05-26 16:46:17,761 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 16:46:17,788 Attente Kafka, 60 secondes.
+2025-05-26 16:47:50,614 Fermeture du client ClientA
+2025-05-26 16:47:55,852 Fermeture du client ClientB
+2025-05-26 17:18:38,313 Enregistrement du client
+2025-05-26 17:18:38,320 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 17:18:38,321 Attente Kafka, 60 secondes.
+2025-05-26 17:18:39,255 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 17:18:39,276 Attente Kafka, 60 secondes.
+2025-05-26 17:18:45,545 Enregistrement du client
+2025-05-26 17:18:45,549 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 17:18:45,550 Attente Kafka, 60 secondes.
+2025-05-26 17:18:46,482 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 17:18:46,505 Attente Kafka, 60 secondes.
+2025-05-26 17:35:48,290 Fermeture du client ClientA
+2025-05-26 17:35:48,566 Application run failed
+java.io.IOError: java.io.IOException: Error executing '/usr/bin/stty -a': /usr/bin/stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:57)
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:779)
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:512)
+	at org.springframework.shell.jline.InteractiveShellRunner$JLineInputProvider.readInput(InteractiveShellRunner.java:91)
+	at org.springframework.shell.Shell.run(Shell.java:146)
+	at org.springframework.shell.jline.InteractiveShellRunner.run(InteractiveShellRunner.java:72)
+	at org.springframework.shell.DefaultShellApplicationRunner.run(DefaultShellApplicationRunner.java:66)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$4(SpringApplication.java:784)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.isihop.fr.shellClient.ShellClientApplication.main(ShellClientApplication.java:15)
+Caused by: java.io.IOException: Error executing '/usr/bin/stty -a': /usr/bin/stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:48)
+	at org.jline.terminal.impl.exec.ExecPty.doGetConfig(ExecPty.java:177)
+	at org.jline.terminal.impl.exec.ExecPty.getAttr(ExecPty.java:91)
+	at org.jline.terminal.impl.exec.ExecPty.doSetAttr(ExecPty.java:97)
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:48)
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:55)
+	... 24 common frames omitted
+2025-05-26 17:35:49,141 Fermeture du client ClientB
+2025-05-26 17:36:06,758 Enregistrement du client
+2025-05-26 17:36:06,760 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 17:36:06,761 Attente Kafka, 60 secondes.
+2025-05-26 17:36:07,795 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 17:36:07,799 Attente Kafka, 60 secondes.
+2025-05-26 17:36:29,558 Enregistrement du client
+2025-05-26 17:36:29,564 #### -> ClientA: Envoi du message -> CONNECT:ClientA
+2025-05-26 17:36:29,570 Attente Kafka, 60 secondes.
+2025-05-26 17:36:30,132 #### -> ClientA: Envoi du message -> GET:ClientA
+2025-05-26 17:36:30,135 Attente Kafka, 60 secondes.
+2025-05-26 17:36:34,156 Fermeture du client ClientA
+2025-05-26 17:36:49,165 Enregistrement du client
+2025-05-26 17:36:49,167 #### -> ClientB: Envoi du message -> CONNECT:ClientB
+2025-05-26 17:36:49,169 Attente Kafka, 60 secondes.
+2025-05-26 17:36:50,023 #### -> ClientB: Envoi du message -> GET:ClientB
+2025-05-26 17:36:50,067 Attente Kafka, 60 secondes.
+2025-05-26 17:38:19,159 Fermeture du client ClientA
+2025-05-26 17:38:20,239 Fermeture du client ClientB

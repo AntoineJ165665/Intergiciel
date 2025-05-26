@@ -1,0 +1,45 @@
+1748274208552:FROM:ClientA#TO:CLientA#"Hello"
+1748274244676:message "Hello" "ClientA"
+1748274345472:message "Fuck you" "ClientB"
+1748274358661:message "HI" "ClientA"
+1748274488591:byebye
+1748274494397:byebye
+1748274796684:help
+1748274844158:message --help
+1748274876071:message --msg"Hello" --msg"CLientB"
+1748274906984:"Hello" "ClientB"
+1748274930266:message "Hello" "ClientA"
+1748274946556:message "Hello" "ClientB"
+1748275078931:byebye
+1748285323691:message "Hello" "ClientA"
+1748285349860:message "Hello" "ClientB"
+1748285689337:--msg "Hello" --dst "ClientB"
+1748285817281:message help
+1748285821111:message -help
+1748285936427:message [--msg Hello] [--dst ClientB]
+1748285967152:message --msg "Hello" --dst "ClientB"
+1748285998932:message --msg Hello --dst ClientB
+1748286186692:message --msg "Hello" -dst ClientB
+1748286198248:message --msg "Hello" --dst ClientB
+1748286256243:message --msg "Hello" --dst ClientA
+1748286312659:message [--msg "Hello"] [--dst ClientB]
+1748286376073:byebye
+1748286382192:byebye
+1748291221085:message --msg"Hello" --dst ClientB
+1748291233519:message --msg "Hello" --dst ClientB
+1748291253899:message --msg "BOnjour" --dst ClientA
+1748292335183:byebye
+1748292342736:byebye
+1748292402878:message --msg "Hello" --dst "ClientA"
+1748292425184:message --msg "Hello" --dst "ClientB"
+1748292432406:message --msg "Hello" --dst ClientB
+1748292443820:message --msg "Hello" --dst ClientA
+1748292470559:byebye
+1748292475775:byebye
+1748294348217:message --msg "Hello" --dst "ClientA"
+1748294372077:message --msg "Hello" --dst ClientB
+1748294415967:message "Hello" "ClientB"
+1748295393967:byebye
+1748295430401:message --msg "Hello" --dst "ClientA"
+1748295451424:message --msg "Hello" --dst ClientB
+1748295490872:message [--msg Hello] [--dst CLientA]
